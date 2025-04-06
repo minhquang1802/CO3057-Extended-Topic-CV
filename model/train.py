@@ -7,8 +7,8 @@ from preporcess import prepare
 from utilities import train
 
 
-data_dir = 'D:/Books/DATN_LVTN/dataset/Task06_Lung/data_train_test'
-model_dir = 'D:/Books/DATN_LVTN/dataset/Task06_Lung/CV-Topic/Model/results' 
+data_dir = '../dataset/Task06_Lung/data_train_test'
+model_dir = '../dataset/Task06_Lung/CV-Topic/Model/results' 
 data_in = prepare(data_dir, cache=True)
 
 device = torch.device("cuda:0")
